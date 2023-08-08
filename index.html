@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3_musicthom.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+}
+
+p {
+  font-family: "Helvetica";
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 150px;
+  color: #f1f1f1;
+  width: 100%;
+
+</style>
+    
+</head>
+    
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:0px;">
+   <a href="#home" class="w3-bar-item  w3-wide">
+         <img src="images/logo_thom.png" width="220px" height="32px" id=logo alt="Logo image" style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px; " />
+      </a>
+    <!-- Right-sided navbar links. Hide them on small screens 
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div> -->
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="min-width:500px; max-width:100%; margin-bottom:-40px;" id="home">
+  <video autoplay muted loop id="myVideo">
+  <source src="https://video.wixstatic.com/video/11062b_e55321c53b02478b9bafa28958160488/1080p/mp4/file.mp4" type="video/mp4">
+</video> 
+
+        
+  <div class="content w3-row-padding" style="margin-top:-40px; ">
+   
+      <div class="w3-center ">
+    <h1 style= "margin-top:100px;" style= "font-size: 80px;">Muziek</h1>
+  </div>
+      
+    <div class="w3-half w3-section ">
+      <ul class="w3-ul  w3-hover-shadow">
+         <li  style="float: right ;"><img class="w3-image" src="images/cover.jpg.webp" alt="cover image" style= "max-height:450px; border-radius:10px; "></li>
+      </ul>
+    </div>
+    
+      
+    <div class="w3-half w3-section">
+      <ul class="w3-ul  w3-hover-shadow" style= "border-radius: 40px;">
+         <li  style=" float:left; ">
+          <iframe height="450" width="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1667375583&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
+          </li>
+      </ul>
+    </div>
+        <div class="w3-center">
+            <a target="_blank" href="images/muzikant_gezocht_v1.pdf"><img src="images/cta.png" width="300" height="150px" id=logo alt="Logo image" style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px; " /></a>
+       </div>
+  </div>
+
+</header>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-dark-grey w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey" style="margin-top:-160px;"><i></i>Terug naar boven</a>
+  <div class="w3-row-padding">
+   
+    <div class="w3-col-m8" style="text-align: center; ">
+     
+         <img src="images/logo_thom_light.png" width="220px" height="32px" id=logo alt="Logo image" style=" margin-top: 10px; margin-bottom: 10px; " /> 
+        
+      <p style= "text-decoration: none">hallo@thomsmeets.nl</p>
+      
+      </div>
+    </div>
+
+  <p style="font-size:12px; color:#6d6d6d; margin-bottom:-40px;">© Smeetserij, 2023</p>
+</footer>
+
+</body>
+</html>
