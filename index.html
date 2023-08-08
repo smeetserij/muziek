@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Thom Smeets | Muzikant</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3_musicthom.css">
@@ -30,7 +30,21 @@ p {
   top: 150px;
   color: #f1f1f1;
   width: 100%;
-
+    }
+    
+.rotateimg {
+  -webkit-transform:rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+  
+.reverse {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+    
 </style>
     
 </head>
@@ -40,8 +54,8 @@ p {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:0px;">
-   <a href="#home" class="w3-bar-item  w3-wide">
-         <img src="images/logo_thom.png" width="220px" height="32px" id=logo alt="Logo image" style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px; " />
+   <a href="#home" class="w3-bar-item  w3-wide ">
+         <img  src="images/logo_thom.png" width="220px" height="32px" id=logo alt="Logo image" style="margin-left: 10px; margin-top: 10px; margin-bottom: 10px; " class="rotateimg"  />
       </a>
     <!-- Right-sided navbar links. Hide them on small screens 
     <div class="w3-right w3-hide-small">
@@ -62,7 +76,7 @@ p {
   <div class="content w3-row-padding" style="margin-top:-40px; ">
    
       <div class="w3-center ">
-    <h1 style= "margin-top:100px;" style= "font-size: 80px;">Muziek</h1>
+    <h1 style= "margin-top:100px;" style= "font-size: 80px;!important">Muziek</h1>
   </div>
       
     <div class="w3-half w3-section ">
@@ -97,7 +111,7 @@ p {
      
          <img src="images/logo_thom_light.png" width="220px" height="32px" id=logo alt="Logo image" style=" margin-top: 10px; margin-bottom: 10px; " /> 
         
-      <p style= "text-decoration: none">hallo@thomsmeets.nl</p>
+      <p style= "text-decoration: none"><span class="reverse">ln.steemsmoht@ollah</span></p>
       
       </div>
     </div>
